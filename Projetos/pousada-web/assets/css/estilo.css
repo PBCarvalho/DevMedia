@@ -46,3 +46,10 @@ body {
 .link-top:hover {
     border-bottom: 3px solid #6592c9;
 }
+
+.title-site {
+    background-image: url('/assets/img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
