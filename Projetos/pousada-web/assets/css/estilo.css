@@ -68,3 +68,44 @@ body {
 .title-site-description h1, p {
     padding: 20px;
 }
+
+.max-size-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.section-container {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.section-container h2 {
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+.bedrooms {
+    display: flex;
+    justify-content: space-between;
+}
+.bedroom {
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.bedroom a {
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.bedroom a p {
+    text-align: center;
+}
+.bedroom:last-child {
+    margin-right: 0px;
+}
