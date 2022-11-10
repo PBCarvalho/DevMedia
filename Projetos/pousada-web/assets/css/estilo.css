@@ -52,4 +52,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-site-description {
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+.title-site-description h1, p {
+    padding: 20px;
 }
