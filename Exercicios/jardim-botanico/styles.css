@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.limit-width {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.top, .footer {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #1d6e4d;
+}
+
+.area {
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+
+.presentation img, .area p, .area-three-images {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area-three-images {
+    display: flex;
+}
+
+.galery img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}

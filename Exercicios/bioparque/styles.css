@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.limit-width {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.top, .footer {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #ff8014;
+}
+
+.presentation {
+    width: calc(100% -70px);
+    overflow-y: scroll;
+    height: 315px;
+}
+
+.galery {
+    width: 20px 35px;
+}
+
+.area {
+    margin: 20px 35px;
+}
+
+.presentation img, .area p, .area-five-images {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.area-five-images {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galery img {
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+}
