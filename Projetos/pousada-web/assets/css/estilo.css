@@ -133,3 +133,43 @@ img {
     object-fit: cover;
     margin-left: 10px;
 }
+
+.footer {
+    background-color: #49997d;
+    color: #fff;
+}
+.footer h4 {
+    font-size: 22px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-info {
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+.footer-link {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.footer-info a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-copyright {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
