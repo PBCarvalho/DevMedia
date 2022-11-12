@@ -44,6 +44,11 @@ body {
     border-radius: 20px;
 }
 
+.top a:hover {
+    background-color: #230566;
+    color: #fff;
+}
+
 .main-image {
     width: 100%;
 }
