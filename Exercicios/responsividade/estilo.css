@@ -1,73 +1,65 @@
 /* INICIO REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
 .titulo {
-    margin: 20px 0 80px;
-    text-align: center;
-  }
-  
-  .conteudo-dispositivo {
-    display: none;
-    text-align: center;
-  }
-  /* FIM REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
+  margin: 20px 0 80px;
+  text-align: center;
+}
+
+.conteudo-dispositivo {
+  display: none;
+  text-align: center;
+}
+/* FIM REGRAS CSS COMUNS À TODOS OS DISPOSITIVOS */
 
 /* INICIO REGRAS CSS REFERENTES À PRIMEIRA VERSÃO */
 @media only screen and (max-width: 480px) {
+  body {
+    background-color: #d46a6a;
+    color: #fff;
+  }
 
-    body {
-        background-color: #D46A6A;
-        color: #FFF;
-    }
-  
-    .conteudo-dispositivo.pequeno {
-        display: block;
-    }
-  
+  .conteudo-dispositivo.pequeno {
+    display: block;
   }
-  /* INICIO REGRAS CSS REFERENTES À SEGUNDA VERSÃO */
-  @media only screen and (min-width: 481px) and (max-width: 1024px) {
-  
-    body {
-        background-color: #758AA8;
-        color: #FFF;
-    }
-  
-    .conteudo-dispositivo.medio {
-        display: block;
-    }
-  
+}
+/* INICIO REGRAS CSS REFERENTES À SEGUNDA VERSÃO */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-color: #758aa8;
+    color: #fff;
   }
-  /* INICIO REGRAS CSS REFERENTES À TERCEIRA VERSÃO */
-  @media only screen and (min-width: 1025px) {
-  
-    body {
-        background-color: #D4CE6A;
-        color: #000;
-    }
-  
-    .conteudo-dispositivo.grande {
-        display: block;
-    }
-  
+
+  .conteudo-dispositivo.medio {
+    display: block;
   }
-  /* INICIO REGRAS CSS REFERENTES À QUARTA VERSÃO */
-  @media print {
-  
-    .titulo {
-        margin: 0 0 50px;
-        text-align: left;
-    }
-  
-    .conteudo-dispositivo {
-        text-align: left;
-    }
-  
-    body {
-        background-color: #FFF;
-        color: #000;
-    }
-  
-    .conteudo-dispositivo.impressao {
-        display: block;
-    }
-  
+}
+/* INICIO REGRAS CSS REFERENTES À TERCEIRA VERSÃO */
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: #d4ce6a;
+    color: #000;
   }
+
+  .conteudo-dispositivo.grande {
+    display: block;
+  }
+}
+/* INICIO REGRAS CSS REFERENTES À QUARTA VERSÃO */
+@media print {
+  .titulo {
+    margin: 0 0 50px;
+    text-align: left;
+  }
+
+  .conteudo-dispositivo {
+    text-align: left;
+  }
+
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .conteudo-dispositivo.impressao {
+    display: block;
+  }
+}
