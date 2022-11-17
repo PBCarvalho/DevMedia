@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/estilo.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>CMLife - Home</title>
   </head>
   <body>
-    <header>
-      <div>
-        <div>
+    <header class="topo">
+      <div class="container">
+        <div class="topo-titulo">
           <a href="index.html"
             ><img
               src="./assets/img/logo.png"
@@ -17,7 +23,7 @@
           /></a>
         </div>
 
-        <nav>
+        <nav class="topo-links">
           <a href="#sobre">Sobre</a>
           <a href="especialidades.html">Especialidades</a>
           <a href="#contato">Contato</a>
@@ -26,8 +32,8 @@
     </header>
 
     <main>
-      <section class="secao-capa">
-        <div>
+      <section class="box-visao-geral">
+        <div class="box-visao-geral-titulo container">
           <h1>
             Clínica Médica Life<br />
             Aqui a gente cuida de você
@@ -35,8 +41,8 @@
         </div>
       </section>
 
-      <section id="sobre">
-        <div>
+      <section id="sobre" class="secao-sobre container">
+        <div class="container-conteudo">
           <h2>Sobre a clínica</h2>
 
           <p>
@@ -46,74 +52,110 @@
           </p>
         </div>
 
-        <div>
-          <img src="" alt="" />
-          <h2>Aqui na nossa clínica você vai encontrar:</h2>
+        <div class="box-sobre">
+          <img
+            src="./assets/img/medico.jpg"
+            alt="Imagem de um médico"
+            title="Imagem de um médico"
+          />
 
-          <ul>
-            <li>Horário flexível. Atendemos de segunda à sábado.</li>
-            <li>Estacionamento amplo com 600 vagas.</li>
-            <li>Sala de espera com TV e Wifi.</li>
-            <li>Agendamento pelo telefone ou WhatsApp.</li>
-            <li>Excelente localização.</li>
-            <li>Entrega de exames em sua residência</li>
-          </ul>
+          <div>
+            <h3>Aqui na nossa clínica você vai encontrar:</h3>
+            <ul>
+              <li>Horário flexível. Atendemos de segunda à sábado.</li>
+              <li>Estacionamento amplo com 600 vagas.</li>
+              <li>Sala de espera com TV e Wifi.</li>
+              <li>Agendamento pelo telefone ou WhatsApp.</li>
+              <li>Excelente localização.</li>
+              <li>Entrega de exames em sua residência</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section>
-        <div>
+      <section id="especialidades" class="secao-especialidades container">
+        <div class="container-conteudo">
           <h3>Uma clínica de multiespecialidade</h3>
-
           <p>
             Nossa clínica possui diversas especialidades. Como ortopedia,
             pediatra, geriatria, psicologia, fisioterapia e outros.
           </p>
         </div>
 
-        <div>
-          <figure>
-            <img src="" alt="" />
+        <div class="box-especialidades">
+          <figure class="box-especialidade">
+            <img
+              src="./assets/img/ortopedia.png"
+              alt="Imagem de um ortopedista"
+              title="Imagem de um ortopedista"
+            />
             <figcaption>Ortopedia</figcaption>
           </figure>
-          <figure>
-            <img src="" alt="" />
+
+          <figure class="box-especialidade">
+            <img
+              src="./assets/img/pediatra.png"
+              alt="Imagem de uma pediatra"
+              title="Imagem de uma pediatra"
+            />
             <figcaption>Pediatria</figcaption>
           </figure>
-          <figure>
-            <img src="" alt="" />
+
+          <figure class="box-especialidade">
+            <img
+              src="./assets/img/geriatra.png"
+              alt="Imagem de uma geriatra"
+              title="Imagem de uma geriatra"
+            />
             <figcaption>Geriatria</figcaption>
           </figure>
         </div>
 
-        <a href="#">Ver horários</a>
+        <div class="box-link-horarios">
+          <a class="link-horarios" href="especialidades.html">Ver Horários</a>
+        </div>
       </section>
 
-      <section id="contato">
-        <div>
+      <section id="contato" class="secao-contato container">
+        <div class="container-conteudo">
           <h3>Contato</h3>
 
           <p>
-            Nossa clínica médica está aberto de segunda à sábado das 6:00 às
-            21:00.
+            Nossa clínica médica está aberto de
+            <strong>segunda à sábado das 6:00 às 21:00</strong>
           </p>
           <p>
-            Através do telefone/WhatsApp (21) 99966-5555 você pode fazer o
-            agendamento de consultas e exames.
+            Através do telefone/WhatsApp <strong>(21) 99966-5555</strong> você
+            pode fazer o agendamento de consultas e exames.
           </p>
           <p>
-            Estamos localizados no estacionamento do Via Parque Shopping av.
-            Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.
+            Estamos localizados no estacionamento do Via Parque Shopping
+            <strong
+              >av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.</strong
+            >
           </p>
-
-          <iframe src="" frameborder="0"></iframe>
+        </div>
+        
+        <div class="container-rota">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14692.471710812997!2d-43.3641911!3d-22.9826906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1612707978931!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="350"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
     </main>
 
     <footer>
-      <div>
-        <img src="" alt="" />
+      <div class="container">
+        <img class="topo-logo"
+          src="/assets/img/logo.png"
+          alt="Clínica Médica"
+          title="Clínica Médica Life"
+        />
 
         <p>Telefone e WhatsApp: (21) 99966-5555</p>
         <p>
