@@ -1,40 +1,39 @@
 * {
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     margin: 0;
     padding: 0;
     background-color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-main {
-    color: #00008c;
+  }
+  
+  main {
+    color: #0000008c;
     margin-bottom: 60px;
-}
-
-.container {
+  }
+  
+  .container {
     max-width: 1024px;
     margin: 0 auto;
-}
-
-.container-conteudo {
+  }
+  
+  .container-conteudo {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-}
-
-.container-conteudo h2, .container-conteudo h3 {
-    margin: 0;
-}
-
-.topo {
+  }
+  
+  .container-conteudo h2, .container-conteudo h3 {
+    margin:0;
+  }
+  
+  .topo {
     background-color: #00cad1;
     width: 100%;
-}
-
-.topo .container {
+  }
+  .topo .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,124 +41,150 @@ main {
     min-height: 60px;
     padding: 0 10px;
     margin: 0 auto;
-}
-
-.topo-titulo {
+  }
+  
+  .topo-titulo {
     font-weight: 600;
     font-size: 28px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.topo-titulo a {
+  }
+  .topo-titulo a {
     display: flex;
-}
-.topo-logo {
+  }
+  
+  .topo-logo {
     height: 60px;
-}
-
-.topo-links {
+  }
+  
+  .topo-links{
     display: flex;
-}
-
-.topo-links a {
+  }
+  
+  .topo-links a {
     padding: 10px;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-}
-
-.topo-links a:hover {
+  }
+  
+  .topo-links a:hover {
     color: #004b4c;
-}
-
-footer {
+  }
+ 
+  footer {
     background-color: #0d6e71;
     color: #fff;
     padding: 20px;
-}
-
-footer .container {
+  }
+  
+  footer .container {
     text-align: center;
-}
-
-#sobre, #especialidades, #contato {
+  }
+  
+  #sobre,
+  #especialidades,
+  #contato {
     padding: 40px 20px 0;
-}
-
-.box-visao-geral {
+  }
+  
+  .box-visao-geral {
     position: relative;
-    background-image: url('/assets/img/recepcao.png');
+    background-image: url('../assets/img/recepcao.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 500px;
-}
-
-.box-visao-geral-titulo {
+  }
+  
+  .box-visao-geral-titulo{
     height: 100%;
     color: #fff;
     padding: 10px;
     display: flex;
     align-items: center;
-}
-
-.box-visao-geral h1 {
+  }
+  
+  .box-visao-geral h1 {
     font-weight: 500;
     text-transform: uppercase;
     font-size: 38px;
     margin: 0;
-}
-
-.box-sobre {
+  }
+  
+  .box-sobre {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.box-sobre h3 {
+  }
+  
+  .box-sobre h3 {
     font-weight: 500;
     text-transform: uppercase;
-}
-
-.box-sobre img {
+  }
+  
+  .box-sobre img {
     height: 250px;
-}
-
-.box-especialidades {
+  }
+  
+  .box-especialidades {
     display: flex;
     flex-wrap: wrap;
-}
-
-.box-especialidade {
+  }
+  
+  .box-especialidade{
     border-radius: 3px;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
     margin: 20px;
     width: calc(100% / 3 - 40px);
-}
-
-.box-especialidade img {
+  }
+  
+  .box-especialidade img {
     width: 100%;
-}
-
-.box-especialidade figcaption {
+  }
+  
+  .box-especialidade figcaption {
     text-align: center;
     padding: 10px;
     text-transform: uppercase;
-}
-
-.box-link-horarios {
+  }
+  
+  .box-link-horarios {
     text-align: center;
     margin-top: 20px;
-}
-
-.link-horarios {
+  }
+  
+  .link-horarios {
     background-color: #00cad1;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
     padding: 10px 20px;
     text-decoration: none;
-}
+  }
+  
+  @media (max-width: 1024px) {
+    .box-visao-geral { height: 400px;}
+  }
+  
+  @media (max-width: 768px) {
+    .box-visao-geral { height: 300px;}
+    .box-sobre img { display: none;}
+    .box-especialidades {justify-content: center;}
+    .box-especialidade {
+      width: calc(100% / 2 - 40px);
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .box-visao-geral { height: 200px;}
+    .box-visao-geral h1 { font-size: 28px;}
+    .box-especialidade {
+      width: 100%;
+    }
+    .topo .container { flex-direction: column; }
+    .topo-titulo { margin: 10px 0; }
+    .topo-links { width: 100%; border-top: 1px solid #009fa5; justify-content: space-around;}
+  }
