@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+
+        <title>Vagas para programadores</title>
+    </head>
+    <body>
+        <header>
+            <span>Vagas</span>
+        </header>
+        <main>
+            <h1>Formulário de vagas para programadores</h1>
+
+            <p>Preencha o formulário abaixo com suas informações.</p>
+
+            <form action="https://www.devmedia.com.br/codigos/formularios/aula7/">
+                <label>Nome</label>
+                <input type="text" name="nome" class="inputText" required>
+                <label>Data de Nascimento</label>
+                <input type="date" name="data_nascimento" class="inputText" required>
+                <label>Email</label>
+                <input type="email" name="email" class="inputText" placeholder="email@provedor.com" required>
+                <label>Estado:</label>
+                <select class="select" name="estado" required>
+                    <option value="">Selecione seu estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PB">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+                <label>Tecnologias:</label>
+                <select class="selectMultiple" name="tecnologias[]" size="6" multiple>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value="HTML">HTML</option>
+                    <option value="Java">Java</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="XML">XML</option>
+                </select>
+
+                <button type="submit">Enviar Formulário</button>
+            </form>
+        </main>
+
+        <footer>
+            Copyright 2022 - PBCarvalho
+        </footer>
+    </body>
+</html>
