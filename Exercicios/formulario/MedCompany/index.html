@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilo.css" type="text/css">
 
         <title>MedCompany</title>
     </head>
@@ -13,19 +13,19 @@
         </header>
 
         <main>
-            <h1>Formulário de exames</h1>
+            <h1>Formulário de exame</h1>
 
-            <p>Preencha o formulário abaixo com suas informações</p>
+            <p>Preencha o formulário abaixo com suas informações.</p>
 
             <form action="https://www.devmedia.com.br/codigos/formularios/aula6/">
                 <label>Nome</label>
-                <input type="text" name="nome" class="inputText" required>
+                <input type="text" name="nome" class="inputText" placeholder="Digite seu nome completo" required>
 
                 <label>Data de Nascimento</label>
                 <input type="date" name="data_nascimento" class="inputText" required>
 
                 <label>Email</label>
-                <input type="email" name="email" class="inputText" placeholder="exemplo@email.com" required>
+                <input type="email" name="email" class="inputText" placeholder="email@provedor.com" required>
 
                 <div class="categoria categoria-tatuagem">
                     <h2 class="titulo-categoria">Você possui tatuagem?</h2>                    
@@ -41,9 +41,9 @@
                 </div>
 
                 <div class="categoria categoria-doacao">
-                    <h2 class="titulo-categoria">Ultima vez que doou sangue?</h2>
+                    <h2 class="titulo-categoria">Última vez que doou sangue?</h2>
                     <div class="grupo-opcao">
-                        <input type="radio" name="doacao" id="doacao-meses" value="6 meses">
+                        <input type="radio" name="doacao" id="doacao-meses" value="6 meses" required>
                         <label for="doacao-meses">Nos últimos 6 meses</label>
                     </div>
 
