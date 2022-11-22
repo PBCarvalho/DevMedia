@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html, body{
+    width: 100%;
+}
+
+.topo, .rodape{
+    width: 100%;
+    height: 55px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ff21c5;
+    color: #f8f8f8;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.rodape{
+    position: sticky;
+    bottom: 0;
+    background-color: #f8f8f8;
+    color: #ff21c5;
+
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 430px;
+    margin: 30px auto;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    padding: 16px 0;
+}
+
+.inputText{
+    height: 32px;
+    margin: 20px 0;
+}
+
+.titulo-categoria{
+    padding: 20px 0;
+    
+    display: flex;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.select{
+    height: 32px;
+    margin: 20px 0;
+}
+
+.selectMultiple{
+    margin: 20px 0;
+}
+
+button{
+    background-color: #ff21c5;
+    color: #fff;
+    border: none;
+    height: 32px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+h1{
+    color: #ff21c5;
+}
