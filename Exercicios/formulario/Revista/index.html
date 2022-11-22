@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+
+    <title>Cadastro - Receba um brinde em casa</title>    
+</head>
+<body>
+    <header class="topo">
+        <span>Revista</span>
+    </header>
+    
+    <main>
+        <h1>Cadastro</h1>
+
+        <p>Estamos lançando uma nova revista e enviaremos o primeiro exemplar grátis para todos que se cadastrarem hoje no site.</p>
+
+        <form action="https://www.devmedia.com.br/codigos/formularios/aula8/">
+
+            <fieldset>
+                <legend>Dados de contato</legend>
+
+                <label>Nome: </label>
+                <input placeholder="Digite seu nome completo" required type="text" name="nome"/>
+
+                <label>Email:</label>
+                <input placeholder="exemplo@email.com" type="email" name="email" />
+
+                <label>Telefone:</label>
+                <input placeholder="(XX) XXXXX-XXXX" type="tel" name="telefone" />
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados de entrega</legend>
+
+                <label>Endereço:</label>
+                <input placeholder="Rua, Avenida, Travessa..." type="text" name="endereco" />
+
+                <label>Número:</label>
+                <input type="number" name="numero" />
+
+                <label>Complemento:</label>
+                <input type="text" name="complemento" />
+            </fieldset>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+    </main>
+    <footer class="rodape">
+        Copyright 2022 - Revista - PBCarvalho
+    </footer>
+</body>
+</html>
