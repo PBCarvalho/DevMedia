@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.secao-topo {
+  border-bottom: 1px solid #d5d5d5;
+}
+.secao-topo p {
+  padding: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.secao-largura-limitada {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: #fff;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.secao-background-capa {
+  min-height: 500px;
+  background-image: url("./assets/img/capa.jpg");
+  background-size: cover;
+}
+.secao-background-conteudo {
+  text-align: right;
+  padding: 50px 20px;
+  background: #00000085;
+}
+
+.secao-conteudo {
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+.img-conteudo {
+  width: 250px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.secao-conteudo span {
+  border-left: 1px solid;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.secao-background-divisao {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #d92121;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.secao-background-divisao h3 {
+  font-size: 36px;
+  background-color: #6c0000;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.grupo-campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-campo input,
+.grupo-campo select {
+  margin: 12px 0;
+  height: 25px;
+}
+
+.secao-conteudo fieldset {
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.secao-conteudo button {
+  width: 100%;
+  height: 32px;
+  background-color: #d92121;
+  border: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  position: relative;
+  bottom: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #d92121;
+}
+
+@media (max-width: 815px) {
+  .img-conteudo {
+    width: 100%;
+  }
+}
