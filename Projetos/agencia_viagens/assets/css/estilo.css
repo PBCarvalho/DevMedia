@@ -228,8 +228,6 @@ button:hover{
     box-sizing: border-box;
     background-color: #fff;
 }
-.natureza-imagem h3, p{
-}
 .natureza-imagem h3{
     font-size: 16px;
 }
@@ -237,4 +235,39 @@ button:hover{
     font-size: 14px;
     color: grey;
     margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.rodape-conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.rodape-conteudo h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.rodape-conteudo div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.rodape-conteudo img{
+    width: 18px;
+}
+.rodape-conteudo span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
 }
