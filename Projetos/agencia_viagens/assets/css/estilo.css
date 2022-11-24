@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.topo{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.topo-logo{
+    width: 32px;
+    height: 32px;
+}
+.topo-titulo{
+    color: #5d15d1;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.limite-largura{
+    max-width: 1024px;
+}
+
+.orcamento-fundo{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/bahia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.orcamento-area{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.orcamento-cabecalho{
+    width: 100%;
+    height: 35px;
+    background-color: #5d15d1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.orcamento-logo{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+.orcamento-descricao{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 5px;
+}
+.orcamento-area-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+}
+.orcamento-subtitulo-formulario{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+.formulario label{
+    font-size: 16px;
+}
+.formulario input, .formulario select{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+.formulario input{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.formulario select{
+    padding: 0 3px;
+}
+.formulario-campo-duplo{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.formulario-campo-duplo div{
+    width: calc(50% - 10px);
+}
+.radio{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+.radio div{
+    display: flex;
+    align-items: center;
+    width: 120px !important;
+}
+.radio input{
+    width: 15px;
+}
+.radio label{
+    margin-left: 8px;
+}
+
+button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+}
+button:hover{
+    cursor: pointer;
+}

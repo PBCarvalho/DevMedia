@@ -5,33 +5,34 @@
         <meta name="description" content="A agência de Viagens encontra o hotel certo para você!">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/estilo.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&amp;display=swap">
 
         <title>Agência de Viagens</title>
     </head>
     <body>
-        <header class="secao-topo">
-            <div>
-                <img src="./assets/img/local-logo.png" title="Logo da agência" alt="Logo da agência">
-                <p>Agencia de Viagens</p>
+        <header>
+            <div class="topo limite-largura">
+                <img class="topo-logo" src="./assets/img/local-logo.png" title="Logo da agência" alt="Logo da agência">
+                <p class="topo-titulo">Agência de Viagens</p>
             </div>
         </header>
         <main>
-            <section>
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <h1></h1>
+            <section class="orcamento-fundo">
+                <div class="orcamento-area limite-largura">
+                    <div class="orcamento-cabecalho">
+                        <img class="orcamento-logo" src="./assets/img/aviao.png" title="Ícone do avião" alt="Ícone do avião">
+                        <h1 class="orcamento-descricao">Solicite um orçamento</h1>
                     </div>
-                    <div>
-                        <h2></h2>
-                        <form method="post" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+                    <div class="orcamento-area-formulario">
+                        <h2 class="orcamento-subtitulo-formulario">Informe seus dados</h2>
+                        <form method="post" class="formulario" action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
                             <label for="nome">Nome</label>
                             <input id="nome" type="text" name="nome" placeholder="Nome completo" required>
                             <label for="email">Email</label>
                             <input id="email" type="email" name="email" placeholder="Email para contato" required>
                             <label for="celular">Nome</label>
                             <input id="celular" type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" name="celular" placeholder="(xx) xxxxx-xxxx" required>
-                            <div>
+                            <div class="formulario-campo-duplo">
                                 <div>
                                     <label for="ida">Data de ida</label>
                                     <input id="ida" type="date" name="partida">
@@ -41,7 +42,7 @@
                                     <input id="volta" type="date" name="chegada">
                                 </div>
                             </div>
-                            <div>
+                            <div class="formulario-campo-duplo">
                                 <div>
                                     <label for="origem">Origem</label>
                                     <select id="origem" name="origem">
@@ -56,7 +57,7 @@
                                 <div>
                                     <label for="destino">Destino</label>
                                     <select id="destino" name="destino">
-                                        <option value="selected">Partindo de</option>
+                                        <option value="selected">Indo para</option>
                                         <option value="AM">Amazonas</option>
                                         <option value="RJ">Rio de Janeiro</option>
                                         <option value="SP">São Paulo</option>
@@ -66,7 +67,7 @@
                                 </div>
                             </div>
                             <label>Quarto com cama infantil?</label>
-                            <div>
+                            <div class="radio">
                                 <div>
                                     <input id="infantil-sim" type="radio" name="infantil" value="s">
                                     <label for="infantil-sim">Sim</label>
@@ -77,7 +78,7 @@
                                 </div>
                             </div>
                             <label>Preferência da hospedagem</label>
-                            <div>
+                            <div class="radio">
                                 <div>
                                     <input id="piscina" type="checkbox" name="preferencias[]" value="piscina">
                                     <label for="piscina">Piscina</label>
