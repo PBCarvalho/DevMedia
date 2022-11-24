@@ -192,7 +192,7 @@ button:hover{
 .oferta-imagem-destaque img, .oferta-quatro-imagens img{
     width: 100%;
     height: 100%;
-    background-size: cover;
+    object-fit: cover;
 }
 .oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption{
     position: absolute;
@@ -204,4 +204,37 @@ button:hover{
     color: #fff;
     padding: 5px 10px;
     box-sizing: border-box;
+}
+
+.natureza-duas-imagens{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+.natureza-imagem{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.natureza-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.natureza-imagem div{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.natureza-imagem h3, p{
+}
+.natureza-imagem h3{
+    font-size: 16px;
+}
+.natureza-imagem p{
+    font-size: 14px;
+    color: grey;
+    margin-top: 15px;
 }
