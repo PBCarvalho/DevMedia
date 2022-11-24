@@ -271,3 +271,53 @@ footer{
     font-size: 14px;
     margin-left: 10px;
 }
+
+@media (max-width: 1100px){
+    .limite-largura{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .formulario button{
+        width: 100%;
+    }
+    .ofertas-imagens{
+        flex-direction: column;
+        height: 100%;
+    }
+    .oferta-quatro-imagens{
+        width: 100%;
+    }
+    .oferta-imagem-destaque, .oferta-quatro-imagens figure{
+        width: 100%;
+        height: 225px;
+        margin-top: 15px;
+    }
+    .natureza-duas-imagens{
+        flex-direction: column;
+    }
+    .natureza-imagem{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .natureza-imagem img{
+        height: auto;
+    }
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rodape-conteudo{
+        width: 250px;
+    }
+}
+
+@media (max-width: 540px){
+    .formulario-campo-duplo, .radio{
+        flex-direction: column;
+    }
+    .formulario-campo-duplo div, .radio div{
+        width: 100%;
+    }
+}
