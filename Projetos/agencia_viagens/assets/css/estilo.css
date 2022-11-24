@@ -5,7 +5,7 @@
 
 body{
     background-color: #80808029;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 }
 header{
     width: 100%;
@@ -140,4 +140,68 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+
+.ofertas-area, .natureza-area{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+.ofertas-titulo, .natureza-titulo{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ofertas-descricao, .natureza-descricao{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.ofertas-descricao span{
+    font-weight: bold;
+}
+.ofertas-imagens{
+    width: 100%;
+    height: 375px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.oferta-imagem-destaque{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.oferta-quatro-imagens{
+    width: calc(50% - 10px);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.oferta-quatro-imagens figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.oferta-imagem-destaque img, .oferta-quatro-imagens img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
 }
