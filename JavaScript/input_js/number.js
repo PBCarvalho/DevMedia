@@ -2,10 +2,6 @@ import entradaDados from 'readline-sync';
 
 console.log("=== Calculadora entre x e y ===\n");
 
-//Lembrando que a função Number(), é utilizada somente na Soma,
-//sendo que nas outras expressões o Js converte os números de
-//string para number automaticamente.
-
 let x = entradaDados.question("Informe o valor de x: ")
 let y = entradaDados.question("Informe o valor de y: ")
 
