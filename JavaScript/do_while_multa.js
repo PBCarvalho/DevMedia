@@ -4,7 +4,6 @@ let total_dias = 10;
 let contador = 1;
 
 do{
-
     let dias_atraso = contador;
 
     let valor_multa = valor_mensalidade * taxa_multa * dias_atraso;
