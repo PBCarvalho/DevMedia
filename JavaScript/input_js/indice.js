@@ -6,7 +6,7 @@ let pessoa = [
     { nome: 'Marcela', idade: 24 }
 ];
 
-let indice = entradaDados.question("Digite o índice do objeto desejado: ");
+let indice = entradaDados.question("Digite o índice do elemento desejado: ");
 
 console.log("Nome: "+pessoa[indice].nome);
 console.log("Idade: "+pessoa[indice].idade);
