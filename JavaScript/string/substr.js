@@ -1,17 +1,9 @@
-let conteudo = "Neste artigo de JavaScript veremos como utilizar o método substring() para extrair uma sequência de caracteres de uma string.";
+let cep = "23010-090";
 
-let tamanho = conteudo.length;
-let resumo = "";
+if (cep.length > 9) {
 
-if( tamanho > 100 ){
-
-    resumo = conteudo.substr(0, 97);
-    resumo += "...";
+    console.log("O CEP deve ter 9 caracteres");
 
 } else {
-
-    resumo = conteudo;
-
+    console.log("1");
 }
-
-console.log(resumo);
