@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/* TOPO */
+header {
+  background-color: #20232a;
+  color: #61dafb;
+  padding: 0 15px;
+}
+
+header p {
+  font-weight: bold;
+}
+
+/* CONTEÚDO */
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-titulo {
+  background-color: #282c34;
+  padding-bottom: 50px;
+}
+.box-titulo h1 {
+  color: #61dafb;
+}
+.box-titulo p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.box-titulo a {
+  color: #000;
+  background-color: #61dafb;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.box-requisitos {
+  padding: 30px 10px;
+}
+
+.box-cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% / 3) - 10px);
+  max-width: 300px;
+  margin: 5px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: #282c34;
+  box-shadow: 5px 5px 5px rgb(145, 145, 145);
+}
+.card h3 {
+  color: #edc854;
+  margin: 0 0 10px;
+}
+.card p {
+  margin: 0;
+  color: #fff;
+}
+
+/* RODA PÉ */
+footer {
+  text-align: center;
+  background-color: #f2f3f6;
+}
