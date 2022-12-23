@@ -1,6 +1,11 @@
 const dataAtual = new Date();
 const dataPostagem = new Date('2020-11-11T00:00');
 
+console.log("Ano: " + dataAtual.getFullYear());
+console.log("Mês: " + dataAtual.getMonth());
+console.log("Dia da semana (Domingo = 0 a Sábado = 6): " + dataAtual.getDay());
+console.log("Dia: " + dataAtual.getDate());
+
 //Pegando o timestamp das datas
 const timeAtual = dataAtual.getTime();
 const timePostagem = dataPostagem.getTime();
