@@ -1,4 +1,10 @@
-const hoje = new Date( "2020-02-27 10:35:00" );
+const usuario = 'Fabiana';
+const limiteChar = 10;
 
+const validaCampo = (usuario.length <= limiteChar) && true;
 
-console.log(hoje);
+if (validaCampo) {
+    console.log('Dados válidos');
+} else {
+  console.log('O limite de caracteres é:' + limiteChar);
+}
