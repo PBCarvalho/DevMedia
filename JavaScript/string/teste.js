@@ -1,17 +1,19 @@
-let numeros = [1, 2, 5, 8, 14];
+const lista_numeros = [1, 2, 3, 7, 9, 12, 15, 18];
 
-const calcula_media = (numeros) => {
-    let total_numeros = numeros.length;
-    let soma_numeros = 0;
+const total_impares_pares = (lista_numeros) => {
+    let impares = 0;
+    let pares = 0;
 
-    for( const numero of numeros) {
-        soma_numeros = soma_numeros + numero;
+    for(let numero of lista_numeros) {
+        if(numero % 2 == 0){
+            pares++;
+        } else {
+            impares++
+        }
     }
 
-    let media_numeros = soma_numeros / total_numeros;
-
-    return media_numeros;
+    console.log("O total de números ímpares é: " + impares);
+    console.log("O total de números pares é: " + pares);
 }
 
-let media = calcula_media(numeros);
-console.log("A média dos números é: " + media);
+total_impares_pares(lista_numeros);
