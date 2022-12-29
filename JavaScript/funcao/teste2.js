@@ -1,13 +1,5 @@
-function retorna_status_aluno(nota_1, nota_2) {
+let email = "exemplo@devmedia.com.br";
 
-    let media = (nota_1 + nota_2) / 2;
-    let status;
+let dominio = (email.substr(7).indexOf("@") + 1);
 
-    if (media >= 6) {
-        status = "aprovado";
-    } else {
-        status = "reprovado";
-    }
-
-    return status;
-}
+console.log(dominio);

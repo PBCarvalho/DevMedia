@@ -1,6 +1,7 @@
 let lista_numeros = [20, 3, 5, 10];
 
 const retorna_soma = (lista_numeros) => {
+    
     let soma = 0;
 
     for (const numero of lista_numeros) {
