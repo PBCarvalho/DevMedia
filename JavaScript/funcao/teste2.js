@@ -1,5 +1,10 @@
-let email = "exemplo@devmedia.com.br";
+const mensagem_boas_vindas = (mensagem_usuario) => {
 
-let dominio = (email.substr(7).indexOf("@") + 1);
+    let mensagem(mensagem_usuario) = "Seja bem-vindo(a) " + nome + "!";
 
-console.log(dominio);
+    return mensagem;
+}
+
+let nome = ("Samantha");
+
+console.log(mensagem_usuario);
