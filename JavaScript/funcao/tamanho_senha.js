@@ -12,12 +12,3 @@ if (verifica_tamanho_senha(senha_cadastro)){
 } else {
     console.log("A senha não possui o mínimo de 10 caracteres");
 }
-
-
-
-
-
-function myFunction() {
-    alert("Hello World!");
-  }
-  myFunction();
