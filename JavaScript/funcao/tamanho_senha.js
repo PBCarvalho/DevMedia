@@ -5,10 +5,19 @@ function verifica_tamanho_senha(senha) {
     }
 }
 
-let senha_cadastro = "minha_se";
+let senha_cadastro = "minha_senha";
 
 if (verifica_tamanho_senha(senha_cadastro)){
     console.log("A senha possui o mínimo de 10 caracteres");
 } else {
     console.log("A senha não possui o mínimo de 10 caracteres");
 }
+
+
+
+
+
+function myFunction() {
+    alert("Hello World!");
+  }
+  myFunction();
