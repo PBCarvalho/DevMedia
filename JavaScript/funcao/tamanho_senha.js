@@ -1,6 +1,6 @@
 function verifica_tamanho_senha(senha) {
 
-    if(senha_cadastro.length >= 10) {
+    if(senha.length >= 10) {
         return true;
     }
 }
