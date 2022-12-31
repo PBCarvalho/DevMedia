@@ -7,5 +7,5 @@ const diasDaSemana = [
     "sexta-feira"
 ];
 
-diasDaSemana.push("sabado");
+diasDaSemana.push("sábado"); //adiciona o "sábado"
 diasDaSemana.map((dia)=> console.log(dia));
