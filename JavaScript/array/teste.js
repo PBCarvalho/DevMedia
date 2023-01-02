@@ -5,10 +5,10 @@ const alunos = [
     { nome: "Diego", av1: 10, av2: 2, av3: 8 },
   ];
   
-  const qntAlunos = alunos.length;
+  const aprovados = alunos.filter ( aluno => {
+    const media = (aluno.av1 + aluno.av2 + aluno.av3) / 3;
   
-  const mediaTurmaAv1 = alunos.reduce ((total, aluno) => {
-    return total + aluno.av1;
-  }, 0);
+    return (media >= 7);
+  });
   
-  console.log( mediaTurmaAv1 / qntAlunos );
+  aprovados.forEach( (aluno) => console.log(aluno.nome) );
