@@ -1,14 +1,14 @@
-const jogos = [
-    { id: 1, nome: 'Galaxian', anoLancamento: 1979 },
-    { id: 2, nome: 'Donkey Kong', anoLancamento: 1981 },
-    { id: 3, nome: 'Ms. Pac-Man', anoLancamento: 1981 },
-    { id: 4, nome: 'Asteroids', anoLancamento: 1979 },
-];
-
-function retornaNomeJogos (nome, jogo) {
-    return nome + jogo.nome + ', ';
-}
-
-const nomesJogos = jogos.reduce(retornaNomeJogos, '');
-
-console.log(nomesJogos.slice(0, -2));
+const alunos = [
+    { nome: "José", av1: 10, av2: 5, av3: 7 },
+    { nome: "Ana", av1: 1, av2: 10, av3: 10 },
+    { nome: "Fernando", av1: 0, av2: 5, av3: 7 },
+    { nome: "Diego", av1: 10, av2: 2, av3: 8 },
+  ];
+  
+  const qntAlunos = alunos.length;
+  
+  const mediaTurmaAv1 = alunos.filter((total, aluno) => {
+    return total + aluno.av1;
+  }, 0);
+  
+  console.log( mediaTurmaAv1 / qntAlunos );
