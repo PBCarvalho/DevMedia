@@ -1,0 +1,15 @@
+const dataAtual = new Date();
+const dataProximoAno = new Date('2024-01-01T00:00');
+
+const timestampAtual = dataAtual.getTime();
+const timestampProximoAno = dataProximoAno.getTime();
+
+const calculoTimestamp = timestampAtual - timestampProximoAno;
+
+const segundos = calculoTimestamp / 1000;
+const minutos = segundos / 60;
+const horas = minutos / 60;
+
+const dias = horas / 24;
+
+console.log("Faltam "+dias+" dias para 2024");
