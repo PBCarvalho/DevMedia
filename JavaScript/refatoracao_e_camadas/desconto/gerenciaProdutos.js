@@ -1,5 +1,3 @@
-import produtos from "./dadosProdutos";
-
 function aplicaDesconto(precoProduto)
 {
     let descontoPorcento = 10;
@@ -9,7 +7,7 @@ function aplicaDesconto(precoProduto)
     return precoFinal;
 }
 
-function listaProdutos()
+function listaProdutos(produtos)
 {
     let data = new Date();
     let mes = data.getMonth();
