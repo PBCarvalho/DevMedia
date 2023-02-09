@@ -1,0 +1,24 @@
+header {
+    padding: 10px 15px;
+}
+
+.limitar-secao {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-topo {
+    width: 150px;
+}
+
+.links a {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+
+    padding: 5px;
+    margin: 0 5px;
+}

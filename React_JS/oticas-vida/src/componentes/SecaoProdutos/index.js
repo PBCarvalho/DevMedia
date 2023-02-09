@@ -2,7 +2,7 @@ export default function SecaoProdutos() {
     return (
         <section id="produtos">
             <div>
-                <h2>Nossos Produtos</h2>
+                <h2 className="subtitulo">Nossos Produtos</h2>
                 <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculinoas, femininos e infantil.</p>
                 <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>
                 <div>
