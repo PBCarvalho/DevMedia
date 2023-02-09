@@ -1,26 +1,41 @@
 export default function SecaoContato() {
     return (
-        <section id="contato">
-            <div>
-                <h2 className="subtitulo">Fale conosco</h2>
+        <section id="contato" className="secao-contato">
+            <div className="limitar-secao">
+                <h3>Fale conosco</h3>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
-                <div>
-                    <div>
-                        <h3>Contato</h3>
-                        <figure>
+                
+                <div className="contato-container">
+                    <div className="contato-conteudo">
+                        <h4>Contato</h4>
+                        <div>
                             <img src="./assets/local.png" />
-                            <figcaption>Nova Iguaçu, RJ</figcaption>
-                        </figure>
-                        <figure>
+                            <span>Nova Iguaçu, RJ</span>
+                        </div>
+                        <div>
                             <img src="./assets/telefone.png" />
-                            <figcaption>(21) 9999-9999</figcaption>
-                        </figure>
-                        <figure>
+                            <span>(21) 9999-9999</span>
+                        </div>
+                        <div>
                             <img src="./assets/email.png" />
-                            <figcaption>contato@oticavida.com</figcaption>
-                        </figure>
+                            <span>contato@oticavida.com</span>
+                        </div>
                     </div>
-                    <div></div>
+                    <div className="contato-conteudo">
+                        <h4>Nossas redes sociais</h4>
+                        <div>
+                            <img src="./assets/fb.png" />
+                            <span>/OticaVida</span>
+                        </div>                        
+                        <div>
+                            <img src="./assets/ig.png" />
+                            <span>@oticavidarj</span>
+                        </div>                        
+                        <div>
+                            <img src="./assets/tt.png" />
+                            <span>@oticavidarj</span>
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </section>

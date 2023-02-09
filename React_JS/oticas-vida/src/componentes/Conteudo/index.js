@@ -5,11 +5,11 @@ import SecaoContato from "../SecaoContato";
 
 export default function Conteudo() {
     return (
-        <div>
+        <main>
             <SecaoCapa />
             <SecaoProdutos />
             <SecaoSobre />
             <SecaoContato />
-        </div>
+        </main>
     );
 }

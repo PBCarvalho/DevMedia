@@ -8,12 +8,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Limitar largura da seção */
 .limitar-secao {
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.subtitulo {
+h3 {
     margin: 0;
     font-size: 36px;
     text-transform: uppercase;
