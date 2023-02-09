@@ -1,6 +1,6 @@
 export default function SecaoSobre() {
     return (
-        <section>
+        <section id="sobre">
             <h2>Quem somos nós</h2>
             <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Ótica Vida iniciou suas atividades focada no atendimento ao público de renda mais caixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
             <div>
