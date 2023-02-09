@@ -1,4 +1,4 @@
-import './estilo.css'
+import './estilo.css';
 
 export default function Topo() {
     return (

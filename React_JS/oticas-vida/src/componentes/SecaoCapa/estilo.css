@@ -1,0 +1,37 @@
+section {
+    background-image: url('//oticas-vida/public/assets/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
+
+    height: 80%;
+}
+
+.limitar-secao-capa {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.limitar-secao-capa h1, p {
+    font-family: 'Anybody', cursive;
+    max-width: 500px;
+}
+.limitar-secao-capa h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+.limitar-secao-capa p {
+    font-size: 36px;
+    color: rgb(196, 196, 196);
+}

@@ -1,7 +1,9 @@
+import './estilo.css';
+
 export default function SecaoCapa() {
     return (
         <section>
-            <div>
+            <div className='limitar-secao-capa'>
                 <p>Preços baixos em</p>
                 <h1>Óculos de grau e de sol</h1>
                 <p>Você só encontra aqui</p>
