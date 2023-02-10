@@ -2,23 +2,21 @@ header {
     padding: 10px 15px;
 }
 
-.limitar-secao {
+header div {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo-topo {
+header img {
     width: 150px;
 }
 
-.links a {
-    color: #000;
+header a {
     font-size: 18px;
+    color: #000;
     text-decoration: none;
-
     padding: 5px;
     margin: 0 5px;
 }
