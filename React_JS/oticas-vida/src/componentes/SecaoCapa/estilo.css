@@ -36,3 +36,22 @@
     font-size: 36px;
     color: rgb(196, 196, 196);
 }
+
+@media (max-width: 768px) {
+    .secao-capa h1 {
+        font-size: 40px;
+        max-width: 350px;
+    }
+    .secao-capa p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao-capa {
+        background-position: 89% center;
+    }
+    .secao-capa div {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}

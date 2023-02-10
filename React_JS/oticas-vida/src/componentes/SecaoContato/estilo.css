@@ -32,3 +32,24 @@
     font-size: 14px;
     margin: 0 0 0 10px;
 }
+
+@media (max-width: 768px) {
+    .secao-contato {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .secao-contato {
+        padding: 60px 10px;
+    }
+    .contato-container {
+        flex-direction: column;
+    }
+    .contato-conteudo {
+        align-items: center;
+    }
+    .contato-conteudo div {
+        width: 150px;
+    }
+}
