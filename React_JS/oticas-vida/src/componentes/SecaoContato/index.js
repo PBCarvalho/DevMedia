@@ -1,3 +1,5 @@
+import './estilo.css'
+
 export default function SecaoContato() {
     return (
         <section id="contato" className="secao-contato">

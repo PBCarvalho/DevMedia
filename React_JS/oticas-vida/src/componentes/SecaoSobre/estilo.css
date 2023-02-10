@@ -1,0 +1,50 @@
+/* Seção sobre*/
+
+.secao-sobre {
+    background-color: #f8f7ff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.container-sobre p {
+    line-height: 32px;
+}
+
+.box-cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-cards img,
+.card {
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.box-cards img {
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.card h4 {
+    font-family: 'Anybody' cursive;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.card p {
+    font-size: 22px;
+    color: #4a4a4a;
+}

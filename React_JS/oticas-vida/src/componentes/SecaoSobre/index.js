@@ -1,8 +1,10 @@
+import './estilo.css'
+
 export default function SecaoSobre() {
     return (
         <section id="sobre" className="secao-sobre">
-            <div>
-                <h3 className="subtitulo">Quem somos nós</h3>
+            <div className="limitar-secao container-sobre">
+                <h3>QUEM SOMOS NÓS?</h3>
                 <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Ótica Vida iniciou suas atividades focada no atendimento ao público de renda mais caixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
                 
                 <div className="box-cards">

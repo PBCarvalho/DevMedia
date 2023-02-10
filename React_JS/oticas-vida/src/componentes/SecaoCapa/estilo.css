@@ -1,29 +1,30 @@
-.secao-image {
+.secao-capa {
+    background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);
     background-image: url('/public/assets/capa.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
   
-    /*background: linear-gradient(47deg, #000113 0%, #04061D 80%, #04061D 100%);*/
-
-    height: 80%;
+    height: 80vh;
 }
 
-.capa {
+.secao-capa div {
     width: 100%;
     height: 100%;
     padding: 20px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
-.capa h1, p {
-    font-family: 'Anybody', cursive;
+.secao-capa h1,
+.secao-capa p
+{
     max-width: 500px;
+    font-family: 'Anybody', cursive;
 }
-.capa h1 {
+.secao-capa h1 {
     text-transform: uppercase;
     color: #fff;
     font-size: 60px;
@@ -31,7 +32,7 @@
     line-height: 70px;
     letter-spacing: 5px;
 }
-.capa p {
+.secao-capa p {
     font-size: 36px;
     color: rgb(196, 196, 196);
 }
