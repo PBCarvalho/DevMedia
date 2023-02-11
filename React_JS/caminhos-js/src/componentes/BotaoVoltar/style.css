@@ -1,0 +1,13 @@
+.area-botao {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.botao-voltar {
+    padding: 20px;
+    text-decoration: none;
+
+    background-color: #f7df1e;
+    color: #000;
+    font-weight: 700;
+}
