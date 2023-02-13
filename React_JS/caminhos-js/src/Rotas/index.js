@@ -5,6 +5,7 @@ import PaginaInicial from '../paginas/PaginaInicial';
 import PaginaFrontEnd from '../paginas/PaginaFrontEnd';
 import PaginaBackEnd from '../paginas/PaginaBackEnd';
 
+//Sincronizar aplicação à uma URL
 const Rotas = () => (
     <BrowserRouter>
         <Routes>
