@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Topo = () => (
     <header>
-        <div>
+        <div className="limita-secao">
             <img src="./assets/logo.png" />
 
             <nav>
