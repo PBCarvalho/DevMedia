@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Sabores() {
     return (
         <div>
-            Sabores            
+            <Link to="/sabores">Sabores</Link>
         </div>
     );
 }

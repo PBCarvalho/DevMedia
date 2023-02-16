@@ -1,17 +1,17 @@
 import React from "react";
-import { BrowserRouter, Router, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from "../paginas/Home";
-import Sabores from "../paginas/Sabores";
-import Sobre from "../paginas/Sobre";
+import Home from "../Paginas/Home";
+import Sabores from "../Paginas/Sabores";
+import Sobre from "../Paginas/Sobre";
 
 const Rotas = () => (
     <BrowserRouter>
-        <Router>
-            <Route exact path="/" from={ <Home /> } />
-            <Route path="./paginas/Sabores" from={ <Sabores /> } />
-            <Route path=".paginas/Sobre" from={ <Sobre />} />
-        </Router>
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/sabores" element={<Sabores />} />
+            <Route path="/sobre" element={<Sobre />} />
+        </Routes>
     </BrowserRouter>
 );
 
