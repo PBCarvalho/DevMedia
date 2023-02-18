@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    padding: 10px 20px;
+    
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #f9db79;
+}
+header div {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    width: auto;
+    height: 60px;
+}
+.link-top {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+
+    padding: 5px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 662px) {
+    header div {
+        flex-direction: column;
+    }
+    header nav {
+        border-top: 1px solid grey;
+        width: 100%;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,36 @@
+footer {
+    background-color: #000;
+}
+
+.container-logo-informacoes {
+    display: flex;
+    color: #fff;
+    padding: 100px 20px;
+    justify-content: space-between;
+}
+.container-logo-informacoes img {
+    width: auto;
+    height: 100px;
+}
+.container-logo-informacoes p {
+    font-size: 16px;
+}
+.direito-autoral {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-logo-informacoes {
+        align-items: center;
+        flex-direction: column;
+        padding: 80px 0;
+    }
+
+    .container-logo-informacoes div {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}

@@ -1,9 +1,8 @@
-import React from "react";
 import './style.css';
 
 const Footer = () => (
     <footer>
-        <div className="limita-secao">
+        <div className="limita-secao container-logo-informacoes">
             <img src="./assets/logo.png" />
 
             <div>
@@ -25,7 +24,7 @@ const Footer = () => (
             </div>
         </div>
 
-        <div>
+        <div className="limitar-secao direito-autoral">
             <p>Gelateria. Orgulhosamente desenvolvido por "Peterson Carvalho"</p>
         </div>
     </footer>

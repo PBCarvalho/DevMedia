@@ -1,6 +1,6 @@
-import React from "react";
-import './style.css';
 import { Link } from "react-router-dom";
+
+import './style.css';
 
 const Top = () => (
     <header>
@@ -8,9 +8,9 @@ const Top = () => (
             <img src="./assets/logo.png" />
 
             <nav>
-                <Link to="/">Home</Link>
-                <Link to="/sabores">Sabores</Link>
-                <Link to="/sobre">Sobre</Link>                
+                <Link className="link-top" to="/">Home</Link>
+                <Link className="link-top" to="/sabores">Sabores</Link>
+                <Link className="link-top" to="/sobre">Sobre</Link>                
             </nav>
         </div>
     </header>

@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from "../paginas/Home";
@@ -8,7 +7,7 @@ import Sobre from "../paginas/Sobre";
 const Rotas = () => (
     <BrowserRouter>
         <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/sabores" element={<Sabores />} />
             <Route path="/sobre" element={<Sobre />} />
         </Routes>

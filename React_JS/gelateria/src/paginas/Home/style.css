@@ -1,0 +1,133 @@
+.secao-banner {
+    height: 90vh;
+    margin-top: 80px;
+
+    background-image: url('../../../public/assets/banner-home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f9db79;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 30px;
+}
+.texto-banner h1 {
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.secao-nossos-sabores,
+.secao-nossos-eventos,
+.secao-sobre-nos {
+    display: flex;
+}
+.secao-nossos-sabores img,
+.secao-nossos-eventos img,
+.secao-sobre-nos img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.texto-secao-nossos-sabores,
+.texto-secao-nossos-eventos,
+.texto-secao-sobre-nos {
+    width: 50%;
+    padding: 100px 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto-secao-nossos-sabores h2,
+.texto-secao-nossos-eventos h2,
+.texto-secao-sobre-nos h2 {
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+}
+.texto-secao-nossos-sabores span,
+.texto-secao-nossos-eventos span,
+.texto-secao-sobre-nos span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.texto-secao-nossos-sabores p,
+.texto-secao-nossos-eventos p,
+.texto-secao-sobre-nos p {
+    padding: 0 100px;
+    line-height: 26px;
+    margin: 40px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .texto-secao-nossos-sabores p,
+    .texto-secao-nossos-eventos p,
+    .texto-secao-sobre-nos p {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .texto-banner h1 {
+        font-size: 60px;
+    }
+
+    .secao-nossos-sabores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-nossos-sabores img {
+        width: 100%;
+    }
+
+    .texto-secao-nossos-sabores,
+    .texto-secao-nossos-eventos,
+    .texto-secao-sobre-nos {
+        width: 100%;
+        padding: 100px 10px;
+        text-align: center;
+    }
+
+    .secao-nossos-eventos {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .secao-nossos-eventos img {
+        width: 100%;
+    }
+
+    .secao-sobre-nos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .secao-sobre-nos img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .texto-banner h1 {
+        font-size: 40px;
+    }
+
+    .texto-secao-nossos-sabores h2,
+    .texto-secao-nossos-eventos h2,
+    .texto-secao-sobre-nos h2 {
+        line-height: 40px;
+    }
+}
