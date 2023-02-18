@@ -1,8 +1,9 @@
 import React from "react";
+import './style.css';
 
-const Rodape = () => (
+const Footer = () => (
     <footer>
-        <div>
+        <div className="limita-secao">
             <img src="./assets/logo.png" />
 
             <div>
@@ -30,4 +31,4 @@ const Rodape = () => (
     </footer>
 );
 
-export default Rodape;
+export default Footer;

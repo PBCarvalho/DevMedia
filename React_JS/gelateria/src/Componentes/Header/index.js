@@ -1,7 +1,8 @@
 import React from "react";
+import './style.css';
 import { Link } from "react-router-dom";
 
-const Topo = () => (
+const Top = () => (
     <header>
         <div className="limita-secao">
             <img src="./assets/logo.png" />
@@ -15,4 +16,4 @@ const Topo = () => (
     </header>
 );
 
-export default Topo;
+export default Top;

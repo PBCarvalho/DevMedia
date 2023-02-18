@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Home from "../Paginas/Home";
-import Sabores from "../Paginas/Sabores";
-import Sobre from "../Paginas/Sobre";
+import Home from "../paginas/Home";
+import Sabores from "../paginas/Sabores";
+import Sobre from "../paginas/Sobre";
 
 const Rotas = () => (
     <BrowserRouter>

@@ -1,11 +1,12 @@
 import React from 'react';
-import Topo from '../../Componentes/Topo';
-import Rodape from '../../Componentes/Rodape';
+import './style.css';
+import Top from '../../componentes/Header';
+import Footer from '../../componentes/Footer';
 
 export default function Home() {
     return (
         <div>
-            <Topo />
+            <Top />
 
             <main>
                 <section className='banner'>
@@ -58,7 +59,7 @@ export default function Home() {
                 </section>
             </main>
 
-            <Rodape />
+            <Footer />
         </div>
     );
 }
