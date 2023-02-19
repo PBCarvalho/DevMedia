@@ -14,11 +14,10 @@ export default function Sabores() {
 
             <main>
                 <section className='secao-banner-sabores'>
-                    <div className='texto-banner-sabores'>
+                    <div className='titulo-banner-sabores'>
                         <h1>NOSSOS SABORES</h1>
                     </div>
-                </section>
-                
+                </section>                
 
                 <section className='limitar-secao secao-sabores'>
                     <h2>SABORES DE SORVETE</h2>
