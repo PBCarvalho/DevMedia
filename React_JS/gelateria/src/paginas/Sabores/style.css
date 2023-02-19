@@ -1,0 +1,22 @@
+.secao-banner-nossos-sabores {
+    height: 90vh;
+    margin-top: 80px;
+
+    background-image: url('../../../public/assets/banner-sabores.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-sabores {
+    width: 50%;
+    padding: 100px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
