@@ -4,7 +4,6 @@ header {
     
     display: flex;
     position: fixed;
-    top: 0;
     z-index: 1;
     background-color: #f9db79;
 }
@@ -17,6 +16,16 @@ header img {
     width: auto;
     height: 60px;
 }
+
+header nav {
+    width: 300px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .link-top {
     font-size: 18px;
     font-weight: 600;
@@ -31,6 +40,7 @@ header img {
     header div {
         flex-direction: column;
     }
+    
     header nav {
         border-top: 1px solid grey;
         width: 100%;

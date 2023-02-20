@@ -1,15 +1,13 @@
 import { Link } from 'react-router-dom';
 
-import Top from '../../componentes/Header'
-import Footer from '../../componentes/Footer'
+import Top from '../../componentes/Header';
+import Footer from '../../componentes/Footer';
 
-import './style.css'
+import './style.css';
 
 export default function Sabores() {
     return (
-        <div>
-            <Link to="/sabores"></Link>
-            
+        <div>            
             <Top />
 
             <main>
@@ -19,7 +17,7 @@ export default function Sabores() {
                     </div>
                 </section>                
 
-                <section className='limitar-secao secao-sabores'>
+                <section className='limita-secao secao-sabores'>
                     <h2>SABORES DE SORVETE</h2>
                     <div className='container-sorvetes'>
                         <div className='box-sorvete'>

@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-banner-sobre {
+    height: 90vh;
+    margin-top: 80px;
+
+    background-image: url('../../../public/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-banner-sobre {
+    padding: 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-banner-sobre h1 {
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.container-secao-sobre-nos div {
+    padding: 100px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-secao-sobre-nos h2 {
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container-secao-sobre-nos span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-secao-sobre-nos p {
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.container-secao-imagens div {
+    display: flex;
+}
+
+.container-secao-imagens img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .titulo-banner-sobre h1 {
+        font-size: 60px;
+    }
+
+    .container-secao-imagens div {
+        flex-direction: column;
+    }
+
+    .container-secao-imagens img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .titulo-banner-sobre h1 {
+        font-size: 40px;
+    }
+}
