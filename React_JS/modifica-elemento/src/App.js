@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
 
-  const [novoTexto, setNovoTexto] = useState()
+  const [novoTexto, setNovoTexto] = useState();
 
   function alterarTexto() {
     setNovoTexto('Hello, World!')
