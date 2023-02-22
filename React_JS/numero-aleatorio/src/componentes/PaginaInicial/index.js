@@ -9,6 +9,10 @@ export default function PaginaInicial() {
         setNumeroAleatorio(novoNumero);
     }
 
+    function limparNumero() {
+        setNumeroAleatorio(1)
+    }
+
     return (
         <div className='conteudo-centralizado'>
             <h3>Número aleatório:</h3>
@@ -21,6 +25,10 @@ export default function PaginaInicial() {
 
                 <button onClick={ gerarNumero }>
                     Gerar número
+                </button>
+
+                <button onClick={ limparNumero}>
+                    Limpar número
                 </button>
             </div>
         </div>
