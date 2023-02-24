@@ -1,0 +1,89 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000
+}
+
+.modo-escuro {
+    background-color: #252323;
+    color: #fff;
+}
+
+header {
+    display: flex;
+}
+
+header div {
+    height: 10vh;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+}
+
+header button {
+    display: flex;
+    align-items: center;
+    border: 2px solid #B2987D;
+    font-weight: 600;
+    
+    border-radius: 25px;
+
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-icone {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.secao-banner {
+    height: 341px;
+    display: flex;
+    background-image: url('../../public/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.secao-texto {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.secao-texto div {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secao-texto h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.primeiro-paragrafo {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.segundo-paragrafo {
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.assinatura {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 35px;
+    color: #B2987D;
+}
