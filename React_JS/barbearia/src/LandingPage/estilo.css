@@ -87,3 +87,9 @@ header button {
     font-size: 35px;
     color: #B2987D;
 }
+
+@media screen and (max-width: 768px) {
+    header div {
+        height: 10%;
+    }
+}
